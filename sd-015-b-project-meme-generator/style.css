@@ -1,0 +1,43 @@
+/* Tags */
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  font-size: 14px;
+}
+
+/* Seções */
+#meme-image-container {
+  position: relative;
+  border: 1px solid black;
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  margin-top: 10px;
+}
+
+/* Elementos */
+#meme-text {
+  position: absolute;
+  width: 100%;
+  font-weight: 1000;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 330px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+#text-input {
+  margin-bottom: 10px;
+}
+
+#meme-image {
+  float: left;
+}

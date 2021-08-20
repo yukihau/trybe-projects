@@ -1,0 +1,101 @@
+/* Tags */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  padding: 2px 8px;
+  margin: 2px;
+  background-color: rgb(30 , 30 , 30);
+  color: white;
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1 {
+  color: rgb(140 , 147 , 168);
+  line-height: 5px;
+  margin-top: 35px;
+}
+
+p {
+  color: rgb(140 , 147 , 168);
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* Seções */
+footer {
+  background-color: rgb(140 , 147 , 168);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+main {
+  margin-left: -40px;
+}
+
+#list-style {
+  background-color: white;
+  box-shadow: 10px 10px rgba(0 , 0 , 0 , 0.4);
+  padding-top: 1px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  text-align: center;
+  list-style: inside;
+}
+
+/* Elementos */
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.background-image {
+  background-image: url('background.jpg');
+  z-index: -1;
+  top: -10px;
+  left: -10px;
+  width: 105%;
+  height: 105%;
+  display: block;
+  position: fixed;
+  filter: blur(5px);
+}
+
+#salvar-tarefas {
+  background-color: green;
+}
+
+#remover-finalizados {
+  background-color: brown;
+}
+
+#apaga-tudo {
+  background-color: red;
+}
+
+#mover-cima {
+  background-color: orange;
+}
+
+#mover-baixo {
+  background-color: orange;
+}
+
+#remover-selecionado {
+  background-color: red;
+}

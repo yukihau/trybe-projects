@@ -1,0 +1,56 @@
+.footer-section {
+  align-items: center;
+  background-color: rgb(226, 226, 226);
+  bottom: 0;
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  position: fixed;
+  width: 100vw;
+}
+
+.footer-section input {
+  border-radius: 5px;
+  height: 50px;
+  padding: 5px;
+  transition: 0.2s;
+  width: 50px;
+}
+
+.footer-section input:hover {
+  background-color: rgba(199, 199, 199, 0.432);
+  cursor: pointer;
+}
+
+.footer-section input:active {
+  background-color: rgba(161, 161, 161, 0.432);
+}
+
+.footer-section input:focus {
+  border: none;
+  outline: none;
+}
+
+@media only screen and ( max-width : 360px ) {
+
+  .footer-section {
+    height: 60px;
+  }
+
+  .footer-section input {
+    border-radius: 5px;
+    height: 35px;
+    padding: 5px;
+    transition: 0.2s;
+    width: 35px;
+  }
+
+  .footer-section input:active {
+    background-color: rgba(161, 161, 161, 0.432);
+  }
+
+  .footer-section input:focus {
+    border: none;
+    outline: none;
+  }
+}

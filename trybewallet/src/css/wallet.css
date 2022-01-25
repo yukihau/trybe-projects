@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap') ;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  background-color: #5a5353;
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 15px;
+  justify-content: space-evenly;
+  margin: 0 20px;
+  padding: 10px;
+}
+
+table {
+  background-color: #7c7575;
+  color: white;
+  font-size: 15px;
+  margin: 0 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  width: 100px;
+}
+
+.text-input {
+  border: 0;
+  border-radius: 4px;
+  flex-grow: 1;
+  height: 25px;
+  width: 75px;
+}
+
+.select-input {
+  background-color: white;
+  border: 0;
+  border-radius: 4px;
+  color: #5a5353;
+  flex-grow: 1;
+  height: 25px;
+  width: 100px;
+}
+
+.add-btn {
+  background-color: #59c3c3;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  height: 25px;
+  width: 200px;
+}
+
+.add-btn:hover {
+  background-color: #26a1a1;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #ef4943;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  height: 25px;
+  width: 75px;
+}
+
+.delete-btn:hover {
+  background-color: #cd2721;
+  cursor: pointer;
+}
+
+header h1 {
+  color: #98b87a;
+  font-family: Shippori Antique, sans-serif;
+  margin-left: 25px;
+}

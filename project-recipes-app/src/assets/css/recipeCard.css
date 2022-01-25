@@ -1,0 +1,187 @@
+.card-receita {
+  background-color: rgb(248, 248, 248);
+  border-radius: 5px;
+  box-shadow: 0 3px 7px 1px rgba(0, 0, 0, 0.17);
+  color: #475d5b;
+  display: flex;
+  justify-content: center;
+  margin: 5px 10px;
+  width: 200px;
+}
+
+.card-receita:hover {
+  box-shadow: 0 3px 7px 1px rgba(0, 0, 0, 0.27);
+  color: #475d5b;
+  text-decoration: none;
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.card-receita div img {
+  border-radius: 5px;
+  box-shadow: 0 0 14px -1px rgba(0, 0, 0, 0.15);
+  height: 150px;
+  margin-top: 15px;
+}
+
+.card-receita h3 {
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.card-receitaFavorita {
+  background-color: rgb(248, 248, 248);
+  border-radius: 5px;
+  box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.37);
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  transition: 0.3s;
+  width: 400px;
+}
+
+.card-receitaFavorita:hover {
+  transform: translateY(-5px);
+}
+
+.card-receitaFavorita div img {
+  border-radius: 5px;
+  box-shadow: 0 0 14px -1px rgba(0, 0, 0, 0.15);
+  height: 150px;
+  margin: 3px;
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.descriptions h4 {
+  color: rgb(65, 65, 65);
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.descriptions a {
+  color: rgb(20, 20, 20);
+  font-size: 30px;
+  padding: 20px;
+  transition: 0.2s;
+}
+
+.descriptions a:hover {
+  color: rgb(77, 77, 77);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.descriptions-buttons {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.descriptions-buttons div {
+  align-items: center;
+  border-radius: 50px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  transition: 0.2s;
+  width: 40px;
+}
+
+.descriptions-buttons div:hover {
+  box-shadow: 0 0 10px 3px rgba(226, 226, 226, 0.4);
+  cursor: pointer;
+}
+
+.favorite-filters {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 500px;
+}
+
+.favorite-filters button {
+  width: 100px;
+}
+
+.madeRecipeDate {
+  margin-bottom: 60px;
+}
+
+.card-favContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
+.ingredients-button {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.ingredients-button:focus {
+  outline: none;
+}
+
+
+@media only screen and ( max-width : 361px ) {
+
+  .card-receita {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.575);
+    border-radius: 0;
+    box-shadow: none;
+    width: 80%;
+  }
+
+  .card-receita h3 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .card-receita div img {
+    border-radius: 5px;
+    box-shadow: 0 0 14px -1px rgba(0, 0, 0, 0.15);
+    height: 100px;
+    margin-top: 15px;
+  }
+
+  .card-receitaFavorita {
+    border-radius: 0;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
+    width: 100vw;
+  }
+
+  .card-receitaFavorita div img {
+    height: 120px;
+    margin-left: 20px;
+  }
+
+  .card-underline {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.575);
+  }
+
+  .descriptions-buttons div {
+    height: 30px;
+    width: 30px;
+  }
+
+  .descriptions-buttons div input {
+    height: 20px;
+    width: 20px;
+  }
+}

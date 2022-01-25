@@ -1,0 +1,222 @@
+.header-div {
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 100vw;
+}
+
+.header-nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.header-nav a {
+  color: black;
+  font-size: 40px;
+  margin: 5px 20px;
+  text-decoration: none;
+}
+
+.input-buttons {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.2s;
+  width: 60px;
+}
+
+.input-buttons:hover {
+  background-color: rgba(199, 199, 199, 0.432);
+  cursor: pointer;
+}
+
+.input-buttons:active {
+  background-color: rgba(161, 161, 161, 0.432);
+}
+
+.input-buttons:focus {
+  border: none;
+  outline: none;
+}
+
+.header-nav img {
+  fill: rgb(121, 121, 121);
+  height: 45px;
+  padding: 7px;
+  width: 45px;
+}
+
+.search-input-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.search-input {
+  width: 50%;
+}
+
+.search-bar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.search-button button {
+  background-color: #faae2b;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 600;
+  height: 40px;
+  min-width: 100px;
+  padding: 2px 15px;
+  transition: 0.2s;
+}
+
+.logout-button button {
+  background-color: #fa5246;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 600;
+  height: 35px;
+  padding: 2px 7px;
+  transition: 0.2s;
+  width: 70px;
+}
+
+.search-button button:hover {
+  background-color: #fac05b;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.22);
+}
+
+.search-button button:focus {
+  background-color: #fac05b;
+  border: 2px solid #00332c;
+  outline: none;
+}
+
+.logout-button button:hover {
+  background-color: #f73325;
+}
+
+.inputs-radio {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.inputs-radio label {
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 2px 5px;
+  transition: 0.2s;
+  width: 150px;
+}
+
+.inputs-radio label:hover, input:hover {
+  cursor: pointer;
+}
+
+.inputs-radio input {
+  margin-right: 5px;
+}
+
+.search-button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.line-division {
+  border-top: 1px solid #bbb;
+  width: 80%;
+}
+
+@media only screen and ( max-width : 360px ) {
+
+  .header-div {
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .header-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .header-nav a {
+    color: black;
+    font-size: 25px;
+    margin: 5px 20px;
+    text-decoration: none;
+  }
+
+  .input-buttons {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    fill: rgb(121, 121, 121);
+    height: 35px;
+    padding: 6px;
+    transition: 0.2s;
+    width: 35px;
+  }
+
+  .input-buttons:active {
+    background-color: rgba(161, 161, 161, 0.432);
+  }
+
+  .input-buttons:focus {
+    border: none;
+    outline: none;
+  }
+
+  .search-input-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .search-bar {
+    padding: 0;
+  }
+
+  .inputs-radio {
+    font-size: 14px;
+    margin: 20px 0;
+    width: 90vw;
+
+  }
+
+  .inputs-radio label {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100px;
+  }
+
+  .logout-button button {
+    font-size: 12px;
+    height: 25px;
+    padding: 2px 7px;
+    width: 45px;
+  }
+}

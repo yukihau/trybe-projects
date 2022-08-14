@@ -1,0 +1,10 @@
+form .seller-select {
+  background-color: white;
+  border-color: #ffc83a;
+  border-radius: 5px;
+  color: #545454;
+  font-family: Courier New , sans-serif;
+  font-size: 18px;
+  margin-left: 5px;
+  padding: 15px 70px;
+}

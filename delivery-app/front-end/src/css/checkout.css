@@ -1,0 +1,237 @@
+.order-div {
+  align-items: center;
+  background-color: #f3f4e7;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px #b9b89d;
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  margin-left: 40px;
+  padding: 30px;
+  width: 1150px;
+}
+
+.titleFinalize {
+  background-color: #d84040;
+  border-radius: 5px;
+  color: white;
+  font-family: Courier New , sans-serif;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-right: 950px;
+  margin-top: 80px;
+  padding: 10px;
+  text-align: center;
+}
+
+.address-div {
+  align-items: center;
+  background-color: #f3f4e7;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px #b9b89d;
+  display: flex;
+  height: 200px;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  padding: 30px;
+  width: 1150px;
+}
+
+.CheckoutFinalize .totalPrice {
+  background-color: #d84040;
+  border-radius: 10px;
+  color: white;
+  font-family: Courier New , sans-serif;
+  font-size: 25px;
+  margin-left: 900px;
+  padding: 10px;
+}
+
+.details {
+  position: relative;
+  top: 75px;
+}
+
+.details-header {
+  align-items: center;
+  background-color: #f3f4e7;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  padding: 5px;
+  width: 1200px;
+}
+
+.details-table {
+  align-items: center;
+  background-color: #f3f4e7;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px #b9b89d;
+  height: 200px;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  padding: 30px;
+  width: 1150px;
+}
+
+.order-details .totalPrice {
+  background-color: #d84040;
+  border-radius: 10px;
+  color: white;
+  font-family: Courier New , sans-serif;
+  font-size: 25px;
+  margin-left: 900px;
+  padding: 10px;
+}
+
+.titleDetails {
+  background-color: #d84040;
+  border-radius: 5px;
+  color: white;
+  font-family: Courier New , sans-serif;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-right: 700px;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.Checkout button {
+  background-color: #d84040;
+  border: none;
+  border-radius: 5px;
+  color: #f0f7ee;
+  font-family: Courier New , sans-serif;
+  font-size: 20px;
+  margin-left: 450px;
+  margin-top: 60px;
+  padding: 10px;
+  position: relative;
+  width: 250px;
+}
+
+.Checkout input {
+  border-color: #ffc83a;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-left: 20px;
+  padding: 15px 60px;
+}
+
+.Checkout label {
+  color: #545454;
+  font-size: 20px;
+}
+
+.Checkout .orderError {
+  color: black;
+  font-family: Courier New , sans-serif;
+  font-size: 20px;
+  margin-left: 400px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.details-header .details-title {
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+}
+
+.details-title .order-id {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.details-header .details-date {
+  background-color: white;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.details-header .details-status {
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.check-delivered-btn {
+  background-color: #d84040;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  height: 25px;
+  margin-right: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.check-delivered-btn:disabled {
+  background-color: #d66767;
+  color: #d9caca;
+}
+
+.check-delivered-btn:hover:not( [ disabled ] ) {
+  background-color: #9e2424;
+  cursor: pointer;
+}
+
+.check-preparing-btn {
+  background-color: #e66ec8;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  height: 25px;
+  margin-right: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.check-preparing-btn:disabled {
+  background-color: #ad6f9e;
+  color: #d9caca;
+}
+
+.check-preparing-btn:hover:not( [ disabled ] ) {
+  background-color: #9b3180;
+  cursor: pointer;
+}
+
+.check-dispatch-btn {
+  background-color: #6154c7;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  height: 25px;
+  margin-right: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.check-dispatch-btn:disabled {
+  background-color: #676481;
+  color: #d9caca;
+}
+
+.check-dispatch-btn:hover:not( [ disabled ] ) {
+  background-color: #302294;
+  cursor: pointer;
+}

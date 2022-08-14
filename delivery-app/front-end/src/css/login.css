@@ -1,0 +1,57 @@
+.Login {
+  align-items: center;
+  background-image: url('../images/AppDelivery.png');
+  display: flex;
+  flex-direction: column;
+  height: 720px;
+  justify-content: flex-start;
+}
+
+.imgLogo {
+  align-items: center;
+  background-image: url('../images/logo.png');
+  background-position: 50%;
+  background-size: cover;
+  height: 300px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.Login button {
+  background-color: #d84040;
+  border: none;
+  border-radius: 5px;
+  color: #f0f7ee;
+  font-family: Courier New , sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px;
+  position: relative;
+  width: 250px;
+}
+
+.Login input {
+  border-color: #d84040;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.Login label {
+  color: #545454;
+  font-size: 20px;
+}
+
+.Login form {
+  align-items: center;
+  background-color: #ffc83a;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px #485f44;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-around;
+  padding: 30px;
+  width: 300px;
+}
